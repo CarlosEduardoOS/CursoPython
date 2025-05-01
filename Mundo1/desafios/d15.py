@@ -1,0 +1,6 @@
+print('===== ALUGEUL DE CARRO =====')
+dias = int(input('Quantos dias o carro foi alugado? '))
+km = float(input('Quantos km foram rodados? '))
+precoAPagar = (dias * 60) + (km * 0.15)
+print(f'O total a pagar é R${precoAPagar:.2f}')
+print('==================================')
